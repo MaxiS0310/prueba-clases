@@ -1,0 +1,143 @@
+.contenedor-h1{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.size-h1{
+    width: 50%;
+    min-width: 180px;
+}
+.size-h1v2{
+    width: 100%;
+    min-width: 180px;
+}
+.bg-header{
+    background-color: aliceblue;
+}
+.a-center{
+    text-align: center;
+}
+.ul-style{
+    list-style: none;
+    display: none;
+    
+}
+.contenedor-section{
+    height: auto;
+    width: 100%;
+    background-color: coral;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.box1{
+    background-color: chartreuse;
+    width: 100%;
+    height: auto;
+   
+}
+.box2{
+    background-color: rgb(77, 42, 165); 
+    width: 100%;  
+    height: 100px; 
+   
+}
+.box3{
+    background-color: rgb(155, 165, 42);
+    width: 100%;
+    height: 100px; 
+        
+}
+.box4{
+    background-color: rgb(42, 165, 159);
+    width: 100%;
+    height: 100px; 
+        
+}
+
+.img-size{
+    width: 40%;
+}
+   
+
+.bg-footer{
+    background-color: rgb(233, 204, 130);
+}
+
+@media(min-width: 520px){
+    .size-h1{
+        width: 33.3%;
+        min-width: 180px;
+    }
+    .size-h1v2{
+        width: 33.3%;
+        min-width: 180px;
+    }
+    .ul-style{
+        list-style: upper-latin;
+        display: block;
+                
+    } 
+
+    .contenedor-section{
+        background-color: rgb(103, 42, 20);
+    
+    }
+    .box1{
+        background-color: chartreuse;
+        width: 50%;
+        height: auto;
+       
+    }
+    .box2{
+        background-color: rgb(77, 42, 165); 
+        width: 50%;  
+        height: 100px; 
+       
+    }
+    .box3{
+        background-color: rgb(155, 165, 42);
+        width: 50%;
+        height: 100px; 
+            
+    }
+    .box4{
+        background-color: rgb(42, 165, 159);
+        width: 50%;
+        height: 100px; 
+            
+    }
+}
+
+@media(min-width: 920px){
+    .contenedor-section{
+        background-color: rgb(18, 14, 13);
+    
+    }
+    .box1{
+        background-color: chartreuse;
+        width: 25%;
+        height: auto;
+       
+    }
+    .box2{
+        background-color: rgb(77, 42, 165); 
+        width: 25%;  
+        height: 100px; 
+       
+    }
+    .box3{
+        background-color: rgb(155, 165, 42);
+        width: 25%;
+        height: 100px; 
+            
+    }
+    .box4{
+        background-color: rgb(42, 165, 159);
+        width: 25%;
+        height: 100px; 
+            
+    }
+
+}

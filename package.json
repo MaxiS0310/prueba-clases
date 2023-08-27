@@ -1,0 +1,20 @@
+{
+  "name": "prueba-clases",
+  "version": "1.0.0",
+  "description": "repo para ir probando lo que voy viendo en clases\r # clase 21 en adelante ya fue mercado liebre",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
